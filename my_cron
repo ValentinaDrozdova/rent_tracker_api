@@ -1,0 +1,2 @@
+# Запускать воркер каждый день в 9:00 утра
+0 9 * * * /usr/local/bin/python /app/worker.py >> /app/cron.log 2>&1
